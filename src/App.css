@@ -12,6 +12,183 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.fondo-app{
+  /* background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,0.5917717428768383) 0%, rgba(148,187,233,0.5861695019804797) 100%); */
+}
+.adaptacion{
+  margin-top: 100px;
+}
+
+.back-nav{
+  background: rgb(255,86,119);
+  background: linear-gradient(90deg, rgba(255,86,119,1) 0%, rgba(145,69,182,1) 28%, rgba(76,63,145,1) 88%);
+  box-shadow: 0 1rem 3rem rgba(255,86,119, 0.3) !important;
+  top: 0;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+.back-card-principal{
+  background: rgb(145,69,182);
+  background: radial-gradient(circle, rgba(145,69,182,1) 13%, rgba(255,86,119,1) 13%, rgba(76,63,145,1) 100%);
+  color: #cecece;
+  border-radius: 40px;
+}
+
+.h1-presentacion{
+  background-color: #4C3F91;
+  color: #FFF;
+  padding: 10px 20px;
+  padding-bottom: 15px;
+  width: 80%;
+  border-radius: 40px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 1rem 3rem rgba(0,0,0, 0.4) !important;
+  margin-bottom: 50px;
+}
+
+.h1-experiencia{
+  background-color: #1F2937;
+  color: #FFF;
+  padding: 10px 20px;
+  padding-bottom: 15px;
+  width: 70%;
+  border-radius: 40px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 1rem 3rem rgba(0,0,0, 0.3) !important;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.h1-skills{
+  background: #4C3F91;
+  color: #FFF;
+  padding: 10px 20px;
+  padding-bottom: 15px;
+  width: 70%;
+  border-radius: 40px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 1rem 3rem rgba(0,0,0, 0.3) !important;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.h1-competencias{
+  background-color: #4C3F91;
+  color: #FFF;
+  padding: 10px 20px;
+  padding-bottom: 15px;
+  width: 70%;
+  border-radius: 40px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 1rem 3rem rgba(0,0,0, 0.3) !important;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.back-card-experiencia {
+  /* background: rgb(31,41,55);
+  background: linear-gradient(90deg, rgba(31,41,55,1) 29%, rgba(224,41,87,1) 29%); */
+  color: #cecece;
+  border-radius: 40px;
+  background: rgb(31,41,55);
+  background: linear-gradient(90deg, rgba(31,41,55,1) 68%, rgba(224,41,87,1) 68%);
+  box-shadow: 0 1rem 3rem rgba(0,0,0, 0.3) !important;
+}
+.back-card-conocimientos { 
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,0.8) 0%, rgba(255,220,93,0.8) 50%, rgba(255,0,0,0.8) 100%);
+  border: solid 1px rgba(255,220,93,0.5);
+  color: #4C3F91;
+  border-radius: 40px;
+  box-shadow: 0 1rem 3rem rgba(255,220,93, 0.3) !important;
+}
+
+.back-card-proyectos { 
+  background: rgb(255,86,119);
+  background: linear-gradient(90deg, rgba(255,86,119,1) 0%, rgba(145,69,182,1) 28%, rgba(76,63,145,1) 88%);
+  border: solid 1px rgba(255,220,93,0.5);
+  color: #4C3F91;
+  border-radius: 40px;
+  box-shadow: 0 1rem 3rem rgba(255,220,93, 0.3) !important;
+}
+th{
+  color: #4C3F91;
+}
+td{
+  color: #4C3F91;
+}
+.back-card-competencias { 
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border: solid 1px rgba(255,220,93,0.5);
+  color: #4C3F91;
+  border-radius: 40px;
+  box-shadow: 0 1rem 3rem rgba(255,220,93, 0.3) !important;
+}
+
+
+.back-card-principal-blur{
+  background: rgb(145,69,182,0.5);
+  background: radial-gradient(circle, rgba(145,69,182,0.8) 13%, rgba(255,86,119,0.8) 13%, rgba(76,63,145,0.8) 100%);
+  color: #cecece;
+  
+
+  backdrop-filter: blur(10px);
+	border: solid 1px rgba(76,63,145,0.5);
+	border-radius: 40px;
+	margin: 0 auto;
+	box-shadow: 0 1rem 3rem rgba(84, 84, 84, 0.651) !important;
+}
+
+.imagen image{
+  width: 10px;
+  height: auto;
+  border-radius: 40px;
+  border-color: #61dafb;
+}
+
+.container-cristal{
+	background-color: rgba(255,255,255,0.05);
+	
+	backdrop-filter: blur(10px);
+	border: solid 1px rgba(255,255,255,0.5);
+	border-radius: 40px;
+	margin: 0 auto;
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+
+a{
+  color: #FFF;
+}
+
+.footer
+{
+  bottom: 0;
+  width: 100%;
+  color: #cecece;
+}
+
+.link-cecece{
+  color: #cecece;
+}
+.link-cecece:hover{
+  color: #FF5677;
+}
+.row{
+  margin: 0px;
+}
+
+.back-footer{
+  background: rgb(76,63,145);
+  background: linear-gradient(90deg, rgba(76,63,145,1) 0%, rgba(145,69,182,1) 28%, rgba(255,86,119,1) 88%);
+}
+
 
 .App-header {
   background-color: #282c34;
