@@ -2,27 +2,37 @@ import React from 'react'
 
 function NavBar() {
   return (
-    <nav id="navbar-example2" className="navbar back-nav px-3">
-      <a className="navbar-brand text-light" hrefLang='#'>Portafolio</a>
-      <ul className="nav nav-pills">
-        <li className="nav-item">
-          <a className="nav-link link-light" href="#scrollspyHeading1">Presentación</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link link-light" href="#experienciaLaboral">Actualidad</a>
-        </li>
-        <li className='nav-item'>
-          <a className="nav-link link-light" href="#scrollspyHeading3">Conocimientos</a>
-        </li>
-        <li className='nav-item'>
-          <a className="nav-link link-light" href="#scrollspyHeading4">Competencias Lab.</a>
-        </li>
-            {/* <li><hr className="dropdown-divider"></li> */}
-        <li className='nav-item'>
-          <a className="nav-link link-light" href="#scrollspyHeading5">Proyectos</a>
-        </li>
-
-      </ul>
+    <nav id="navbar-example2" className="navbar navbar-expand-lg back-nav px-3">
+      <div className='container-fluid'>
+        <code className="navbar-brand text-light">Portafolio</code>
+      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarNav">
+      <div className="navbar-nav">
+        
+        <ul className="nav nav-pills">
+          <li className="nav-item">
+            <a className="nav-link link-light" href="#presentacionPersonal">Presentación</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link link-light" href="#experienciaLaboral">Actualidad</a>
+          </li>
+          <li className='nav-item'>
+            <a className="nav-link link-light" href="#skills">Conocimientos</a>
+          </li>
+          <li className='nav-item'>
+            <a className="nav-link link-light" href="#competenciasLaborales">Competencias Lab.</a>
+          </li>
+          <vr/>
+          <li className='nav-item'>
+            <a className="nav-link link-light" href="#proyectos">Proyectos</a>
+          </li>
+        
+        </ul>
+      </div>
+      </div>
+      </div>
     </nav>
   )
 }

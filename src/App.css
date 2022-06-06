@@ -112,9 +112,10 @@ background: radial-gradient(circle, rgba(238,174,202,0.5917717428768383) 0%, rgb
   background: rgb(255,86,119);
   background: linear-gradient(90deg, rgba(255,86,119,1) 0%, rgba(145,69,182,1) 28%, rgba(76,63,145,1) 88%);
   border: solid 1px rgba(255,220,93,0.5);
-  color: #4C3F91;
+  color: #cecece;
   border-radius: 40px;
   box-shadow: 0 1rem 3rem rgba(255,220,93, 0.3) !important;
+  
 }
 th{
   color: #4C3F91;
@@ -173,12 +174,20 @@ a{
   width: 100%;
   color: #cecece;
 }
+.letra-tab
+{
+  color: #FFF;
+}
+.letra-tab:hover
+{
+  color: #cecece;
+}
 
 .link-cecece{
   color: #cecece;
 }
 .link-cecece:hover{
-  color: #FF5677;
+  color: #FFF;
 }
 .row{
   margin: 0px;

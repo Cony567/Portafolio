@@ -5,7 +5,7 @@ function CompetenciasLaborales() {
     <div className="card mb-3 py-2 back-card-competencias col-8" >
         <div className="g-0">
             <div className="card-body p-3">
-                <table class="table table-bordered">
+                {/* <table class="table table-bordered">
                 <thead>
                     <tr>
                     <th scope="col">#</th>
@@ -39,7 +39,8 @@ function CompetenciasLaborales() {
                     </tr>
                 </tbody>
 
-                </table>
+                </table> */}
+                <img src="/Gráfico.png" alt="" height="600px"/>
             </div>
         </div>
     </div>
