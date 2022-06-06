@@ -27,13 +27,19 @@ function Proyectos() {
                                         {item.descripcion}
                                         </div>
                                         <div className="col">
-                                        {item.path.map((link, index)=>{
-                                            return <a className='nav-link link-cecece ps-3 mb-2' href={link.link} target={"_blank"} rel="noreferrer">
-                                            <div className="row justify-content-center text-center">
-                                            {link.icon}
-                                            {link.nombre}</div>
-                                            </a>
-                                        })}
+                                            <div className="row justify-content-center row-cols-lg-2 row-cols-md-1">
+                                                {item.path.map((link, index)=>{
+                                                    return (
+                                                        <div className="col">
+                                                            <a className='nav-link link-cecece ps-3 mb-2' href={link.link} target={"_blank"} rel="noreferrer">
+                                                            <div className="row justify-content-center text-center">
+                                                            {link.icon}
+                                                            {link.nombre}</div>
+                                                            </a>
+                                                        </div>
+                                                    )
+                                                })}
+                                            </div>
                                         </div>
                                     </div>
                                     

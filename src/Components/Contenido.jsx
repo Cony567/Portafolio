@@ -127,7 +127,7 @@ export const proyectosGitHub = [
         area: "nav-home-tab",
         title: 'Kosb',
         descripcion: 'Proyecto desarrollado para la universidad, se trata de una aplicación web que permite a sus usuarios poder postular, buscar y publicar ofertas de trabajo.',
-        path: [{nombre: "KOSB", link: 'https://github.com/kosb-jobs/tsi_kosb',icon: <FaIcons.FaLaravel size={70}></FaIcons.FaLaravel>}],
+        path: [{nombre: "KOSB", link: 'https://github.com/kosb-jobs/tsi_kosb',icon: <FaIcons.FaLaravel size={80}></FaIcons.FaLaravel>}],
         
         cName: 'show active'
     },
@@ -135,25 +135,31 @@ export const proyectosGitHub = [
         id: "nav-vic2",
         area: "nav-vic2-tab",
         title: 'Vic2',
-        descripcion: 'Aplicación Web de ejercicios en casa y dietas, la aplicación permite que los visitantes vean las rutinas de ejercicios y visualicen las dietas disponibles para distintos tipos de cuerpos. Además cuenta con una parte administrativa, donde los administradores de la aplicacion pueden mantener a la misma y agregar dietas o ejercicios.',
+        descripcion: 'Aplicación Web de ejercicios en casa y dietas dessarrollada bajo el stack de MERN, la aplicación permite que los visitantes vean las rutinas de ejercicios y visualicen las dietas disponibles para distintos tipos de cuerpos. Además cuenta con una parte administrativa, donde los administradores de la aplicacion pueden mantener a la misma y agregar dietas o ejercicios.',
         path: [
             {nombre: "Vic2 Vista",
             link:'https://github.com/S-A-EXETUM/Vic2_Vista', 
-            icon: <FaIcons.FaReact size={60}></FaIcons.FaReact>}, 
+            icon: <FaIcons.FaReact size={70}></FaIcons.FaReact>}, 
             {nombre: "Vic2 BD",
             link:'https://github.com/S-A-EXETUM/Vic2_BD', 
-            icon: <FaIcons.FaNodeJs size={60}></FaIcons.FaNodeJs>}],
+            icon: <FaIcons.FaNodeJs size={70}></FaIcons.FaNodeJs>}],
         cName: ''
     },
     {
         id: "nav-API",
         area: "nav-API-tab",
         title: 'API',
-        descripcion: 'Aquí podrá encontrar una apis desarrolladas en expres, por ejemplo una api de notas. También dejaré la parte visual de las notas.',
+        descripcion: 'Aquí podrá encontrar una apis desarrolladas en expres, por ejemplo una api de notas. También dejaré la parte visual de las notas y otras proyectos en frontend con consumo de APIs.',
         path: [
-            {nombre: "Api de Notas",
+            {nombre: "Api de Notas Backend",
             link:'https://github.com/Cony567/notes-api-backend',
-            icon:<FaIcons.FaNodeJs size={70}></FaIcons.FaNodeJs>}
+            icon:<FaIcons.FaNodeJs size={50}></FaIcons.FaNodeJs>},
+            {nombre: "Api de Notas Frontend",
+            link:'https://github.com/Cony567/notas-api-front',
+            icon:<FaIcons.FaReact size={50}></FaIcons.FaReact>},
+            {nombre: "Consumo de API Breaking Bad",
+            link:'https://github.com/Cony567/breaking-bad-app',
+            icon:<FaIcons.FaReact size={50}></FaIcons.FaReact>}
         ],
         cName: ''
     },
