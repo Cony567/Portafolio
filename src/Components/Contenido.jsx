@@ -52,7 +52,7 @@ export const skills = [
     },
     {
         title: 'CSS',
-        porcentaje: '40%',
+        porcentaje: '55%',
         icon: <SiIcons.SiCss3 size={70}></SiIcons.SiCss3>,
     },
     {
@@ -103,6 +103,21 @@ export const skills = [
         title: 'Express',
         porcentaje: '41%',
         icon: <SiIcons.SiExpress size={70}></SiIcons.SiExpress>,
+    },
+    {
+        title: 'C#',
+        porcentaje: '35%',
+        icon: <SiIcons.SiCsharp size={70}></SiIcons.SiCsharp>,
+    },
+    {
+        title: 'Visual Studio code',
+        porcentaje: '40%',
+        icon: <SiIcons.SiVisualstudiocode size={70}></SiIcons.SiVisualstudiocode>,
+    },
+    {
+        title: 'Postman',
+        porcentaje: '40%',
+        icon: <SiIcons.SiPostman size={70}></SiIcons.SiPostman>,
     }
 ]
 
@@ -135,7 +150,11 @@ export const proyectosGitHub = [
         area: "nav-API-tab",
         title: 'API',
         descripcion: 'Aquí podrá encontrar una apis desarrolladas en expres, por ejemplo una api de notas. También dejaré la parte visual de las notas.',
-        path: [{nombre: "Api de Notas",link:'https://github.com/Cony567/notes-api-backend', icon:<FaIcons.FaNodeJs size={70}></FaIcons.FaNodeJs> }],
+        path: [
+            {nombre: "Api de Notas",
+            link:'https://github.com/Cony567/notes-api-backend',
+            icon:<FaIcons.FaNodeJs size={70}></FaIcons.FaNodeJs>}
+        ],
         cName: ''
     },
     {
@@ -143,7 +162,11 @@ export const proyectosGitHub = [
         area: "nav-musicapp-tab",
         title: 'Aplicación de Música',
         descripcion: 'Aplicación Web de música en proceso de desarrollo, fue creada para poder agregar artistas, albums y canciones asociados y así en un futuro implementar un inicio de sesión para administradores poder mantener la aplicación.',
-        path: [{nombre: "App de Música",link:'https://github.com/Cony567/app-musica', icon: <SiIcons.SiSpringboot size={70}></SiIcons.SiSpringboot>}],
+        path: [
+            {nombre: "App de Música",
+            link:'https://github.com/Cony567/app-musica', 
+            icon: <SiIcons.SiSpringboot size={70}></SiIcons.SiSpringboot>}
+        ],
         cName: ''
     },
     {
@@ -151,7 +174,11 @@ export const proyectosGitHub = [
         area: "nav-damas-tab",
         title: 'Juego de las damas',
         descripcion: 'Aplicación de escritorio para jugar a las damas, desarrollado en java.',
-        path: [{nombre: "Juego Damas", link:'https://github.com/Cony567/Juego-de-Damas', icon: <DiIcons.DiJava size={70}></DiIcons.DiJava>}],
+        path: [
+            {nombre: "Juego Damas", 
+            link:'https://github.com/Cony567/Juego-de-Damas', 
+            icon: <DiIcons.DiJava size={70}></DiIcons.DiJava>}
+        ],
         cName: ''
     }
 ]

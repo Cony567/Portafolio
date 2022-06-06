@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <nav id="navbar-example2" className="navbar navbar-expand-lg back-nav px-3">
       <div className='container-fluid'>
-        <code className="navbar-brand text-light">Portafolio</code>
+        <p className=" display-6 text-light me-5 mb-1">Portafolio</p>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
       </button>

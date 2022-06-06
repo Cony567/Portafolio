@@ -3,7 +3,7 @@ import {proyectosGitHub} from './Contenido'
 
 function Proyectos() {
   return (
-    <div className="back-card-proyectos mb-3 mt-5 py-2 col-8" >
+    <div className="back-card-proyectos mb-5 mt-5 py-2 col-8" >
         <p className='text-center text-light mt-3'>Aquí se encuentran pequeñas descripciones de algunos de los proyectos desarrollados más la dirección del repositorio </p>
         <div className="card card-body container-cristal text-center px-4 py-4" style={{"margin":"20px"}}>
             <nav>

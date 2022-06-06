@@ -13,7 +13,7 @@ function CardPersonal() {
                         <div className="card card-body container-cristal align-middle mt-4" >
                             <h5 className="display-3">Constanza Ethiel Castillo Contreras</h5>
                             <p className="display-6">Técnico Universitario en Informática</p>
-                            <p className="ps-3">Casa de estudios: Universidad Técnica Federico Santamaría</p>
+                            <p className="ps-3">Casa de estudios: Universidad Técnica Federico Santa María</p>
                         </div>
 
                     </div>
