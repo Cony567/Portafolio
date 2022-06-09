@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className='back-footer footer py-4'>
+    <footer className='back-footer-dark footer py-4'>
         <div>
             <p className='text-center display-6 mb-4'>Constanza Castillo Contreras</p>
             <div className="row justify-content-center">
