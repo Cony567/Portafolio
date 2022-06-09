@@ -2,7 +2,7 @@ import React from 'react'
 
 function CardPersonal() {
   return (
-    <div className="card mb-3 py-2 back-card-principal-dark col-10" >
+    <div className="card mb-3 py-2 back-card-principal-dark col-lg-10 col-12" >
         <div className="g-0">
             <div className="card-body">
                 <div className='row'>

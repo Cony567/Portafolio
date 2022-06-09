@@ -3,7 +3,7 @@ import React from 'react'
 function ExperienciaLaboral() {
   return (
 
-    <div className="card back-card-experiencia mb-3 mt-5 py-2 col-10" >
+    <div className="card back-card-experiencia mb-3 mt-5 py-2 col-lg-10 col-12" >
         <div className="g-0">
             <div className="card-body">
                 <div className='row'>

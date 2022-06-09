@@ -2,7 +2,7 @@ import React from 'react'
 
 function CompetenciasLaborales() {
   return (
-    <div className="card mb-3 py-2 back-card-competencias-dark col-8" >
+    <div className="card mb-3 py-2 back-card-competencias-dark col-lg-8 col-12" >
         <div className="g-0">
             <div className="card-body p-3">
                 <div className="row justify-content-center">
