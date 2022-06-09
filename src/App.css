@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+:root{
+  --gris-oscuro: rgb(33, 37, 41);
+  --negro-azulado: rgb(27, 27, 27);
+  --negro-oscuro: rgb(18, 18, 18);
+}
+
+.background-dark{
+  background-color: var(--negro-oscuro);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,6 +45,13 @@ background: radial-gradient(circle, rgba(238,174,202,0.5917717428768383) 0%, rgb
   border-radius: 40px;
 }
 
+.back-card-principal-dark{
+  background: rgb(44,46,50);
+  background: radial-gradient(circle, rgba(44,46,50,1) 16%, rgba(51,55,65,1) 16%, rgba(24,24,24,1) 30%, rgba(51,55,65,1) 97%);
+  color: #cecece;
+  border-radius: 40px;
+}
+
 .h1-presentacion{
   background-color: #4C3F91;
   color: #FFF;
@@ -49,12 +65,39 @@ background: radial-gradient(circle, rgba(238,174,202,0.5917717428768383) 0%, rgb
   margin-bottom: 50px;
 }
 
+.h1-presentacion-dark{
+  background-color: #272727;
+  color: #FFF;
+  padding: 10px 20px;
+  padding-bottom: 15px;
+  width: 80%;
+  border-radius: 40px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  /* box-shadow: 0 1rem 2rem rgba(255,255,255, 0.2) !important; */
+  margin-bottom: 50px;
+}
+
 .h1-experiencia{
   background-color: #1F2937;
   color: #FFF;
   padding: 10px 20px;
   padding-bottom: 15px;
   width: 70%;
+  border-radius: 40px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 1rem 3rem rgba(0,0,0, 0.3) !important;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.h1-experiencia-dark{
+  background: #272727;
+  color: #FFF;
+  padding: 10px 20px;
+  padding-bottom: 15px;
+  width: 80%;
   border-radius: 40px;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -76,6 +119,21 @@ background: radial-gradient(circle, rgba(238,174,202,0.5917717428768383) 0%, rgb
   margin-bottom: 10px;
   margin-top: 50px;
 }
+
+.h1-skills-dark{
+  background: #272727;
+  color: #FFF;
+  padding: 10px 20px;
+  padding-bottom: 15px;
+  width: 70%;
+  border-radius: 40px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 1rem 3rem rgba(0,0,0, 0.3) !important;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
 .h1-competencias{
   background-color: #4C3F91;
   color: #FFF;
@@ -90,6 +148,29 @@ background: radial-gradient(circle, rgba(238,174,202,0.5917717428768383) 0%, rgb
   margin-top: 50px;
 }
 
+.h1-competencias-dark{
+  background-color: #272727;
+  color: #FFF;
+  padding: 10px 20px;
+  padding-bottom: 15px;
+  width: 80%;
+  border-radius: 40px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0 1rem 3rem rgba(0,0,0, 0.3) !important;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.back-nav-dark{
+  background: rgb(51,55,65);
+  background: linear-gradient(90deg, rgba(51,55,65,1) 0%, rgba(39,39,39,1) 52%);
+  top: 0;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
 .back-card-experiencia {
   /* background: rgb(31,41,55);
   background: linear-gradient(90deg, rgba(31,41,55,1) 29%, rgba(224,41,87,1) 29%); */
@@ -99,6 +180,8 @@ background: radial-gradient(circle, rgba(238,174,202,0.5917717428768383) 0%, rgb
   background: linear-gradient(90deg, rgba(31,41,55,1) 68%, rgba(224,41,87,1) 68%);
   box-shadow: 0 1rem 3rem rgba(0,0,0, 0.3) !important;
 }
+
+
 .back-card-conocimientos { 
   background: rgb(131,58,180);
   background: linear-gradient(90deg, rgba(131,58,180,0.8) 0%, rgba(255,220,93,0.8) 50%, rgba(255,0,0,0.8) 100%);
@@ -106,6 +189,15 @@ background: radial-gradient(circle, rgba(238,174,202,0.5917717428768383) 0%, rgb
   color: #4C3F91;
   border-radius: 40px;
   box-shadow: 0 1rem 3rem rgba(255,220,93, 0.3) !important;
+}
+
+.back-card-conocimientos-dark { 
+  /* background: rgb(51,55,65);
+  background: linear-gradient(90deg, rgba(51,55,65,1) 0%, rgba(31,41,55,1) 15%, rgba(31,41,55,1) 88%, rgba(51,55,65,1) 100%); */
+  background-color: #1f2937;
+  color: #e02957;
+  border-radius: 40px;
+  /* box-shadow: 0 1rem 3rem rgba(255,220,93, 0.3) !important; */
 }
 
 .back-card-proyectos { 
@@ -117,6 +209,14 @@ background: radial-gradient(circle, rgba(238,174,202,0.5917717428768383) 0%, rgb
   box-shadow: 0 1rem 3rem rgba(255,220,93, 0.3) !important;
   
 }
+
+.back-card-proyectos-dark { 
+  background: rgb(51,55,65);
+  background: linear-gradient(90deg, rgba(51,55,65,1) 0%, rgba(39,39,39,1) 52%);
+  color: #cecece;
+  border-radius: 40px;  
+}
+
 th{
   color: #4C3F91;
 }
@@ -130,6 +230,14 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
   color: #4C3F91;
   border-radius: 40px;
   box-shadow: 0 1rem 3rem rgba(255,220,93, 0.3) !important;
+}
+
+.back-card-competencias-dark { 
+  /* background: rgb(160,160,160);
+  background: radial-gradient(circle, rgba(160,160,160,1) 9%, rgba(244,244,244,1) 58%, rgba(255,255,255,1) 100%); */
+  background-color: #a0a0a0;
+  color: #4C3F91;
+  border-radius: 40px;
 }
 
 
@@ -174,6 +282,7 @@ a{
   width: 100%;
   color: #cecece;
 }
+
 .letra-tab
 {
   color: #FFF;
@@ -182,7 +291,12 @@ a{
 {
   color: #cecece;
 }
-
+.font-code-dark{
+  color: #cecece;
+}
+.font-code-normal{
+  color: #2d4046;
+}
 .link-cecece{
   color: #cecece;
 }
@@ -192,10 +306,17 @@ a{
 .row{
   margin: 0px;
 }
-
+code{
+  color: #cecece;
+}
 .back-footer{
   background: rgb(76,63,145);
   background: linear-gradient(90deg, rgba(76,63,145,1) 0%, rgba(145,69,182,1) 28%, rgba(255,86,119,1) 88%);
+}
+
+.back-footer-dark{
+  background: rgb(39,39,39);
+  background: linear-gradient(90deg, rgba(39,39,39,1) 0%, rgba(51,55,65,1) 57%);
 }
 
 
@@ -221,4 +342,12 @@ a{
   to {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (max-width: 992px) {
+  .back-card-experiencia { 
+    background: rgb(224,41,87);
+    background: linear-gradient(0deg, rgba(224,41,87,1) 41%, rgba(31,41,55,1) 41%);
+   }
+
 }

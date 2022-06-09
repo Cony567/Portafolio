@@ -2,9 +2,10 @@ import React from 'react'
 
 function NavBar() {
   return (
-    <nav id="navbar-example2" className="navbar navbar-expand-lg back-nav px-3">
+    <nav id="navbar-example2" className="navbar navbar-expand-lg back-nav-dark px-3">
       <div className='container-fluid'>
-        <p className=" display-6 text-light me-5 mb-1">Portafolio</p>
+        {/* <p className=" display-6 text-light me-5 mb-1">Portafolio</p> */}
+        <img src="./acl_logo.png" alt="ACL Tecnología" className='me-5' width="4%"/>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
       </button>
