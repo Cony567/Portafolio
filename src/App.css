@@ -21,10 +21,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.fondo-app{
+/* .fondo-app{
   /* background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,0.5917717428768383) 0%, rgba(148,187,233,0.5861695019804797) 100%); */
-}
+background: radial-gradient(circle, rgba(238,174,202,0.5917717428768383) 0%, rgba(148,187,233,0.5861695019804797) 100%);
+} */
 .adaptacion{
   margin-top: 100px;
 }
