@@ -21,6 +21,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.nav-image-acl{
+  width: 4%;
+}
 /* .fondo-app{
   /* background: rgb(238,174,202);
 background: radial-gradient(circle, rgba(238,174,202,0.5917717428768383) 0%, rgba(148,187,233,0.5861695019804797) 100%);
@@ -349,5 +352,40 @@ code{
     background: rgb(224,41,87);
     background: linear-gradient(0deg, rgba(224,41,87,1) 41%, rgba(31,41,55,1) 41%);
    }
+
+}
+
+@media screen and (max-width: 944px) {
+  .nav-image-acl{
+    width: 6%;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  .nav-image-acl{
+    width: 8%;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .nav-image-acl{
+    width: 10%;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .nav-image-acl{
+    width: 15%;
+  }
+
+}
+
+@media screen and (max-width: 520px) {
+  .responsive-text div p{
+    display: none;
+  }
 
 }

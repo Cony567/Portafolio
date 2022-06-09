@@ -27,7 +27,7 @@ function Proyectos() {
                                         {item.descripcion}
                                         </div>
                                         <div className="col">
-                                            <div className="row justify-content-center row-cols-lg-2 row-cols-md-1">
+                                            <div className="row justify-content-center row-cols-lg-2 row-cols-md-2 row-cols-1">
                                                 {item.path.map((link, index)=>{
                                                     return (
                                                         <div className="col">

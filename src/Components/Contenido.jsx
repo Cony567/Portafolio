@@ -127,7 +127,7 @@ export const proyectosGitHub = [
         area: "nav-home-tab",
         title: 'Kosb',
         descripcion: 'Proyecto desarrollado para la universidad, se trata de una aplicación web que permite a sus usuarios poder postular, buscar y publicar ofertas de trabajo.',
-        path: [{nombre: "KOSB", link: 'https://github.com/kosb-jobs/tsi_kosb',icon: <FaIcons.FaLaravel size={80}></FaIcons.FaLaravel>}],
+        path: [{nombre: "KOSB ~ Busca tu trabajo", link: 'https://github.com/kosb-jobs/tsi_kosb',icon: <FaIcons.FaLaravel size={80}></FaIcons.FaLaravel>}],
         
         cName: 'show active'
     },
