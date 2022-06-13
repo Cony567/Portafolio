@@ -13,6 +13,7 @@ function Proyectos() {
                 <button className="nav-link letra-tab" id="nav-API-tab" data-bs-toggle="tab" data-bs-target="#nav-API" type="button" role="tab" aria-controls="nav-API" aria-selected="false">API</button>
                 <button className="nav-link letra-tab" id="nav-musicapp-tab" data-bs-toggle="tab" data-bs-target="#nav-musicapp" type="button" role="tab" aria-controls="nav-musicapp" aria-selected="false">App de Música</button>
                 <button className="nav-link letra-tab" id="nav-damas-tab" data-bs-toggle="tab" data-bs-target="#nav-damas" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false">Damas</button>
+                <button className="nav-link letra-tab" id="nav-app-flutter-tab" data-bs-toggle="tab" data-bs-target="#nav-app-flutter" type="button" role="tab" aria-controls="nav-app-flutter" aria-selected="false">Flutter</button>
             </div>
             </nav>
             <div className="tab-content" id="nav-tabContent">

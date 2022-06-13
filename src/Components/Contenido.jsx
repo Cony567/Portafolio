@@ -195,7 +195,7 @@ export const proyectosGitHub = [
         path: [
             {nombre: "MúsicApp Flutter", 
             link:'https://github.com/Cony567/MusicApp', 
-            icon: <SiIcons.SiFlutter size={70}></SiIcons.SiFlutter>}
+            icon: <SiIcons.SiFlutter size={55}></SiIcons.SiFlutter>}
         ],
         cName: ''
     }
