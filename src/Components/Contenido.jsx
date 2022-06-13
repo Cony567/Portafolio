@@ -186,5 +186,17 @@ export const proyectosGitHub = [
             icon: <DiIcons.DiJava size={70}></DiIcons.DiJava>}
         ],
         cName: ''
+    },
+    {
+        id: "nav-app-flutter",
+        area: "nav-app-flutter-tab",
+        title: 'App Flutter',
+        descripcion: 'Aplicación móvil de música realizada para la universidad en conjunto con un compañero, se pueden agregar artistas, álbums y canciones. Se realiza lo que es eliminado en cascada para los albums.',
+        path: [
+            {nombre: "MúsicApp Flutter", 
+            link:'https://github.com/Cony567/MusicApp', 
+            icon: <SiIcons.SiFlutter size={70}></SiIcons.SiFlutter>}
+        ],
+        cName: ''
     }
 ]
