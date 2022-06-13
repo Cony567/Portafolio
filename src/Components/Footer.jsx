@@ -1,6 +1,38 @@
-import React from 'react'
+import {React, useState, useEffect} from 'react'
+
+
 
 function Footer() {
+    let [pressed, setPressed] = useState(null)
+
+    let [first, setFirst] = useState(null)
+    useEffect(()=>{
+        if(first){
+            setTimeout(()=>{
+                showMessage()
+            }, 1000)
+        }
+    },[pressed])
+    let showMessage = ()=>{
+        if (!pressed) {
+            let mensaje =document.querySelector("#mensaje-copy")
+            mensaje.classList.remove("d-none")
+            mensaje.innerHTML = "Correo Copiado"
+            document.querySelector("#correo-text").classList.add("d-none")
+            setFirst(true)
+            setPressed(true)
+            
+            
+        }else{
+            let mensaje =document.querySelector("#mensaje-copy")
+            mensaje.classList.add("d-none")
+            document.querySelector("#correo-text").classList.remove("d-none")
+            setFirst(false)
+            setPressed(null)
+            
+        }
+        
+    }
   return (
     <footer className='back-footer-dark footer py-4'>
         <div>
@@ -33,14 +65,24 @@ function Footer() {
                     
                     <button className='link-cecece responsive-text border-0 bg-transparent' onClick={()=>{
                         let correo = document.querySelector("#correo-text")
-                        // correo.focus()
-                        // document.queryCommandIndeterm
+
+                        let varAux = document.createElement("input")
+                        varAux.setAttribute("value", correo.innerHTML);
+                        document.body.appendChild(varAux);
+
+                        varAux.select();
+
+                        document.execCommand("copy");
+                        document.body.removeChild(varAux);
+
+                        showMessage()
+                        
                     }} >
                     <div className="row justify-content-center text-center"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className="bi bi-envelope-plus" viewBox="0 0 16 16">
                     <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
                     <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1h-1a.5.5 0 0 0 0 1h1v1a.5.5 0 0 0 1 0v-1h1a.5.5 0 0 0 0-1h-1v-1a.5.5 0 0 0-.5-.5Z"/>
                     </svg>
-                    <p id='correo-text'>c.castillo@acl.cl</p></div></button>
+                    <p id='correo-text'>c.castillo@acl.cl</p><div id='mensaje-copy' className='d-none fst-italic text-wrap mt-0'></div></div></button>
                     
                 </div>
             </div>

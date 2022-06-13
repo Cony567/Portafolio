@@ -167,7 +167,7 @@ export const proyectosGitHub = [
         id: "nav-musicapp",
         area: "nav-musicapp-tab",
         title: 'Aplicación de Música',
-        descripcion: 'Aplicación Web de música en proceso de desarrollo, fue creada para poder agregar artistas, albums y canciones asociados y así en un futuro implementar un inicio de sesión para administradores poder mantener la aplicación.',
+        descripcion: 'Aplicación Web de música en proceso de desarrollo, en java SpringBoot, fue creada para poder agregar artistas, albums y canciones asociados y así en un futuro implementar un inicio de sesión para administradores y así poder mantener la aplicación. Además que se busca en un futuro posterior poder agregar la música de las canciones, al menos unos 30 segundos de canción',
         path: [
             {nombre: "App de Música",
             link:'https://github.com/Cony567/app-musica', 
@@ -191,7 +191,7 @@ export const proyectosGitHub = [
         id: "nav-app-flutter",
         area: "nav-app-flutter-tab",
         title: 'Flutter',
-        descripcion: 'Aplicación móvil de música realizada para la universidad en conjunto con un compañero, se pueden agregar artistas, álbums y canciones. Se realiza lo que es eliminado en cascada para los albums.',
+        descripcion: 'Aplicación móvil de música realizada para la universidad en conjunto con un compañero, desarrollado en flutter y con conexión a api de laravel, también creada en conjunto. En esta aplicación se pueden agregar artistas, álbums y canciones y se implementó lo que es eliminado en cascada, con eliminado lógico.',
         path: [
             {nombre: "MúsicApp Flutter", 
             link:'https://github.com/Cony567/MusicApp', 
