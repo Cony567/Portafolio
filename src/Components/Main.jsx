@@ -7,7 +7,7 @@ import Skills from './Skills'
 
 function Main() {
   return (
-    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" className="scrollspy-example m-3" tabindex="0">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" className="scrollspy-example m-3" tabIndex="0">
         <div id="presentacionPersonal" className="row justify-content-center">
             <h1 className='h1-presentacion-dark display-6'>Presentación</h1>
             <CardPersonal/>

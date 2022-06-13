@@ -20,7 +20,7 @@ function Proyectos() {
                     proyectosGitHub ?
                     proyectosGitHub.map((item, index) => {
                         return (
-                            <div className={"tab-pane fade" + item.cName} id={item.id} role="tabpanel" aria-labelledby={item.area} tabindex="0">
+                            <div className={"tab-pane fade" + item.cName} id={item.id} role="tabpanel" aria-labelledby={item.area} tabIndex="0" key={index + "proyecto"}>
                                 <div className="m-4">
                                     <div className="row justify-content-center">
                                         <div className="col">
@@ -28,9 +28,9 @@ function Proyectos() {
                                         </div>
                                         <div className="col">
                                             <div className="row justify-content-center row-cols-lg-2 row-cols-md-2 row-cols-1">
-                                                {item.path.map((link, index)=>{
+                                                {item.path.map((link, index2)=>{
                                                     return (
-                                                        <div className="col">
+                                                        <div className="col" key={index + "link" + index2}>
                                                             <a className='nav-link link-cecece ps-3 mb-2' href={link.link} target={"_blank"} rel="noreferrer">
                                                             <div className="row justify-content-center text-center">
                                                             {link.icon}

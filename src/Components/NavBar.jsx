@@ -25,7 +25,6 @@ function NavBar() {
           <li className='nav-item'>
             <a className="nav-link link-light" href="#competenciasLaborales">Competencias Lab.</a>
           </li>
-          <vr/>
           <li className='nav-item'>
             <a className="nav-link link-light" href="#proyectos">Proyectos</a>
           </li>
