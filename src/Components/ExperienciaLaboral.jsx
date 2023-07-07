@@ -9,8 +9,8 @@ function ExperienciaLaboral() {
                 <div className='row'>
                     <div className='col-lg col col-md- col-12 align-start'>
                         <div className="card card-body container-cristal align-middle" >
-                            <h5 className="display-6">Desarrolladora Trainee en PPJ</h5>
-                            <p className="ps-3">Actualmente me encuentro trabajando en la empresa ACL en el área de desarrollo, en el estudio de aplicaciones móviles, por ende Android Estudio y Java. Mi primer experiencia laboral es ACL y ha sido muy buena. He logrado aprender y reforzar muchas de las tecnologías y lenguajes, de las cuales, tenía bases desde la universidad. También he aprendido cosas nuevas que no había utilizado anteriormente, como por ejemplo, React o SpringBoot.<br/> Algo que me llamó la atención es la importancia que le dan a las competencias laborales, pues algunas veces se olvida la importancia de éstas, y la que creo haber mejorado bastante, ha sido la de la comunicación, tanto a la hora de exponer, como a la hora de trabajar en equipo.</p>
+                            <h5 className="display-6">Desarrolladora Web en BTG Pactual</h5>
+                            <p className="ps-3">Actualmente me encuentro trabajando en la empresa ACL en el área de desarrollo. Mi última experiencia laboral fue con el cliente BTG Pactual. Trabajo que fue muy enriquecedor, ya pude aprender bastante. Reforcé bastante mis conocimientos en PLSQL, Java y SpringBoot. También he aprendido cosas nuevas que no había utilizado anteriormente, como por ejemplo, el uso de WebLogic y otras herramientas.<br/> Este fue mi primer trabajo en un cliente y fue estresante en un inicio, pero poco a poco comencé a adaptarme al ambiente, a las herramientas y a los desafíos.<br/>Aunque la comunicación siempre es un desafío para mi, he mejorado bastante y he logrado tener más confianza tanto en mí misma como en mis conocimientos.</p>
                         </div>
                     </div>
                     <div className='col-lg-4 col-md-6 col-12 mt-4'>

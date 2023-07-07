@@ -9,7 +9,7 @@ import * as DiIcons from 'react-icons/di'
 import * as GrIcons from 'react-icons/gr'
 import * as SiIcons from 'react-icons/si'
 
-// Ultima modificación Diego Canelo 7/04/2022
+// Ultima modificación Constanza Castillo 06/07/2023
 // contenido de rutinas
 export const skills = [
     {
@@ -69,14 +69,14 @@ export const skills = [
     },
     {
         title: 'Node',
-        porcentaje: '40%',
+        porcentaje: '30%',
         path: '/rutinas/espalda',
         icon: <FaIcons.FaNodeJs size={70}></FaIcons.FaNodeJs>,
         cName: 'nav-text-dieta'
     },
     {
         title: 'Laravel',
-        porcentaje: '68%',
+        porcentaje: '48%',
         icon: <FaIcons.FaLaravel size={70}></FaIcons.FaLaravel>,
     },
     {
@@ -91,12 +91,12 @@ export const skills = [
     },
     {
         title: 'Jest',
-        porcentaje: '41%',
+        porcentaje: '30%',
         icon: <SiIcons.SiJest size={70}></SiIcons.SiJest>,
     },
     {
         title: 'PHP',
-        porcentaje: '41%',
+        porcentaje: '38%',
         icon: <SiIcons.SiPhp size={70}></SiIcons.SiPhp>,
     },
     {
@@ -118,6 +118,21 @@ export const skills = [
         title: 'Postman',
         porcentaje: '40%',
         icon: <SiIcons.SiPostman size={70}></SiIcons.SiPostman>,
+    },
+    {
+        title: 'GitKraken',
+        porcentaje: '38%',
+        icon: <FaIcons.FaGitkraken size={70}></FaIcons.FaGitkraken>,
+    },
+    {
+        title: 'Oracle',
+        porcentaje: '38%',
+        icon: <SiIcons.SiOracle size={70}></SiIcons.SiOracle>,
+    },
+    {
+        title: 'FileZilla',
+        porcentaje: '30%',
+        icon: <SiIcons.SiFilezilla size={70}></SiIcons.SiFilezilla>,
     }
 ]
 
